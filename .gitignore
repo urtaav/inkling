@@ -46,3 +46,17 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Secretos y configuración local: nunca al repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+credentials.*
+key.properties
+
+# Bocetos y espacios de trabajo de herramientas
+.superpowers/
