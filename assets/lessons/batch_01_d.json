@@ -1,0 +1,183 @@
+[
+  {
+    "id": "w015",
+    "title": "What we learned in the retrospective",
+    "topic": "work",
+    "tag": "Agile",
+    "level": "B1",
+    "tense": "pastSimple",
+    "tenseTip": "Para contar qué salió bien y qué salió mal: pasado simple (It went well, we didn't finish, we decided to...).",
+    "paragraphs": [
+      "Yesterday, at the end of our sprint, we had a retrospective. It is a meeting where the team looks back at the last two weeks and talks about what went well, what didn't go well and what we want to change. Our scrum master, Rosa, ran the meeting with an online board.",
+      "First, everybody wrote ideas on virtual sticky notes for five minutes. Then Rosa read them out loud. Many people wrote that the release went well and that QA found bugs early. I wrote that the new design system helped me to build screens much faster than before.",
+      "Then we talked about the problems. We didn't finish three tickets, and two of them were blocked for a week because we waited for an answer from another team. Daniel said he felt frustrated, because nobody [[followed up]] with them. Others agreed. It wasn't anybody's fault, but it happened again and again.",
+      "We also talked about meetings. Some people said they spent too much time in meetings and didn't have time to code. Rosa asked, \"Which meetings were not useful?\" We discussed it and decided to cancel one weekly meeting and to [[cut down]] the planning to one hour.",
+      "At the end, we chose three actions for the next sprint. First, when a ticket is blocked by another team, someone will [[follow up]] every day. Second, we will try to keep meetings shorter. Third, Carlos offered to write a small guide for the new design system, because it helped everybody.",
+      "I like retrospectives because they give everyone a voice, even the quiet people. At first I didn't say much because of my English, but this time I shared two ideas, and the team liked them. The important thing is that we didn't just complain; we [[came up with]] real changes and we [[stuck to]] them."
+    ],
+    "phrases": [
+      {"text": "followed up", "meaning": "dio seguimiento, volvió a preguntar", "example": "Nobody followed up with the client."},
+      {"text": "follow up", "meaning": "dar seguimiento", "example": "I'll follow up with them tomorrow morning."},
+      {"text": "cut down", "meaning": "reducir", "example": "We cut down the meeting to thirty minutes."},
+      {"text": "came up with", "meaning": "propusimos, se nos ocurrió", "example": "We came up with three new ideas."},
+      {"text": "stuck to", "meaning": "nos apegamos, cumplimos (un plan)", "example": "We stuck to the plan and finished on time."}
+    ],
+    "questions": [
+      {"en": "What went well in this sprint?", "es": "¿Qué salió bien en este sprint?"},
+      {"en": "What didn't go well?", "es": "¿Qué no salió bien?"},
+      {"en": "Why did this ticket take so long?", "es": "¿Por qué tardó tanto este ticket?"},
+      {"en": "What should we change next time?", "es": "¿Qué deberíamos cambiar la próxima vez?"}
+    ],
+    "speak": "Think about your last month at work. Say what went well, what didn't go well and what you decided to change, using the past simple. Then ask your team three retrospective questions."
+  },
+  {
+    "id": "w016",
+    "title": "Tell me about yourself",
+    "topic": "work",
+    "tag": "Interviews",
+    "level": "B1",
+    "tense": "presentPerfect",
+    "tenseTip": "En entrevistas, para hablar de tu experiencia sin decir fechas: I have worked..., I've built..., I've learned... Y for/since para la duración.",
+    "paragraphs": [
+      "Job interviews in English usually start with the same question: \"Tell me about yourself.\" It sounds easy, but many people get nervous and talk for ten minutes without a clear message. A good answer takes about one or two minutes and focuses on your professional story.",
+      "Here is the answer I have prepared: \"I'm a software developer, and I have worked in web and mobile development for five years. I have spent the last two years at a fintech company, where I have built features for a payments app used by more than a million people.\"",
+      "Then I talk about my strengths. \"I have worked a lot with React and Node, and recently I have started to use Flutter. I have also led small projects, and I've mentored two junior developers. I enjoy [[breaking down]] complex problems into simple steps.\"",
+      "After that, I explain why I'm looking for a new job. \"I have learned a lot in my current company, but I'm looking for a team where I can grow into a senior role and work on products with a strong focus on users.\" It's important to be positive and never complain about your current job.",
+      "The interviewer usually asks follow-up questions: \"Have you ever worked with a remote team?\" or \"What is the most difficult problem you've solved?\" For these, I prepare short stories with a clear situation, what I did and the result. I have practiced them out loud many times, so I don't [[go blank]].",
+      "If I don't understand a question, I'm not afraid to ask: \"Sorry, could you [[rephrase]] that?\" Interviewers have met many people who speak English as a second language, and they care more about clear thinking than perfect grammar. With practice, \"tell me about yourself\" has become my favorite question, because I can [[set the tone]] for the whole interview."
+    ],
+    "phrases": [
+      {"text": "breaking down", "meaning": "dividir algo complejo en partes", "example": "I'm good at breaking down big features."},
+      {"text": "go blank", "meaning": "quedarse en blanco", "example": "I always go blank when I'm nervous."},
+      {"text": "rephrase", "meaning": "decirlo con otras palabras", "example": "Could you rephrase the question, please?"},
+      {"text": "set the tone", "meaning": "marcar el tono, dar la primera impresión", "example": "Your first answer sets the tone for the interview."}
+    ],
+    "questions": [
+      {"en": "Have you ever worked with a remote team?", "es": "¿Alguna vez has trabajado con un equipo remoto?"},
+      {"en": "What is the most difficult problem you've solved?", "es": "¿Cuál es el problema más difícil que has resuelto?"},
+      {"en": "What does a typical day look like on this team?", "es": "¿Cómo es un día típico en este equipo?"},
+      {"en": "Sorry, could you rephrase that?", "es": "Perdón, ¿podrías decirlo de otra forma?"}
+    ],
+    "speak": "Answer 'Tell me about yourself' in one or two minutes, using 'I have worked...', 'I've built...', 'I've learned...'. Then ask the interviewer three questions about the job and the team."
+  },
+  {
+    "id": "w017",
+    "title": "Onboarding the new developer",
+    "topic": "work",
+    "tag": "Mentoring",
+    "level": "A2",
+    "tense": "futureWill",
+    "tenseTip": "Para ofrecer ayuda y prometer cosas: I'll + verbo (I'll show you..., I'll send you...). Muy natural en conversaciones de trabajo.",
+    "paragraphs": [
+      "A new developer, Sam, joins our team next Monday, and my manager asked me to be his buddy. A buddy is the person who helps a new teammate during the first weeks. I remember my first week, and I want Sam to feel welcome, so today I'm writing a small plan.",
+      "On Monday morning, I'll meet Sam at nine and I'll introduce him to the team. After that, I'll help him to [[set up]] his laptop. It usually takes half a day, so I'll stay with him and I'll send him the guide with all the steps. If something fails, we'll fix it together.",
+      "In the afternoon, I'll give him a tour of the project. I'll show him the main folders, the database and how we deploy. I won't explain everything on the first day, because it will be too much. I'll focus on the basics, and he will learn the rest little by little.",
+      "On Tuesday, Sam will pick his first ticket. I'll choose a small bug for him, so he can [[get familiar with]] the code and open his first pull request quickly. I'll review it myself, and I'll try to be kind and clear in my comments.",
+      "I'll also tell him the unwritten rules of the team: we don't send messages after seven, we always [[write down]] decisions in the ticket, and it's OK to ask the same question twice. These things are not in the documentation, but they are important.",
+      "Every afternoon during the first week, I'll ask him, \"How's it going? Do you have any questions?\" I think he will feel more comfortable if he knows somebody is there for him. And I'm sure I will learn something from him too, because new people always see things that we don't notice anymore. I'll [[check in]] with him every day."
+    ],
+    "phrases": [
+      {"text": "set up", "meaning": "configurar, dejar listo", "example": "I'll help you set up your laptop."},
+      {"text": "get familiar with", "meaning": "familiarizarse con", "example": "Take a week to get familiar with the code."},
+      {"text": "write down", "meaning": "anotar, poner por escrito", "example": "Let's write down the decision in the ticket."},
+      {"text": "check in", "meaning": "reportarse, preguntar cómo va alguien", "example": "I'll check in with you after lunch."}
+    ],
+    "questions": [
+      {"en": "Do you have any questions?", "es": "¿Tienes alguna pregunta?"},
+      {"en": "How's it going so far?", "es": "¿Cómo vas hasta ahora?"},
+      {"en": "Will you need help with the setup?", "es": "¿Vas a necesitar ayuda con la configuración?"},
+      {"en": "Which part was the most confusing?", "es": "¿Qué parte fue la más confusa?"}
+    ],
+    "speak": "A new teammate starts on Monday. Explain your plan to help them with 'I'll...' and 'we'll...'. Then ask them three questions to check how they feel."
+  },
+  {
+    "id": "l005",
+    "title": "My plans for next year",
+    "topic": "life",
+    "tag": "Goals",
+    "level": "A2",
+    "tense": "futureGoingTo",
+    "tenseTip": "Para metas y planes personales: I'm going to + verbo. Para algo que no harás: I'm not going to...",
+    "paragraphs": [
+      "The year is almost over, and like many people, I'm making a list of plans for next year. I don't like to call them resolutions, because people usually forget them in February. These are concrete plans, and I'm going to write them on a paper on my fridge.",
+      "First, I'm going to improve my English. I'm going to read a short text every day and speak for two minutes about it. I'm also going to watch one series without subtitles in Spanish. My goal is to feel comfortable in meetings by the end of the year, and to [[take part in]] discussions without fear.",
+      "Second, I'm going to take care of my health. I'm going to walk thirty minutes every day, and I'm going to [[sign up for]] a gym near my house. I'm not going to drink coffee after four in the afternoon, because I want to sleep better.",
+      "Third, my wife and I are going to save money for a trip. We are going to visit Canada in the fall, if everything goes well. We are going to save a little every month, and we are not going to buy things we don't need.",
+      "At work, I'm going to ask for more responsibility. I'm going to lead at least one project, and I'm going to share what I learn in a short talk for my team. It scares me a little, but I know it's going to help my career.",
+      "I know some of these plans are going to be hard. Life is going to [[get in the way]], and some weeks I'm going to fail. That's OK. The important thing is not to [[give up]] when it happens, and to start again the next day."
+    ],
+    "phrases": [
+      {"text": "take part in", "meaning": "participar en", "example": "I want to take part in more discussions."},
+      {"text": "sign up for", "meaning": "inscribirse en", "example": "I'm going to sign up for an English class."},
+      {"text": "get in the way", "meaning": "interponerse, estorbar", "example": "Don't let small problems get in the way."},
+      {"text": "give up", "meaning": "rendirse, dejar de intentar", "example": "Don't give up, you're almost there."}
+    ],
+    "questions": [
+      {"en": "What are you going to do next year?", "es": "¿Qué vas a hacer el próximo año?"},
+      {"en": "Are you going to travel?", "es": "¿Vas a viajar?"},
+      {"en": "How are you going to do it?", "es": "¿Cómo lo vas a hacer?"},
+      {"en": "What are you not going to do anymore?", "es": "¿Qué ya no vas a hacer?"}
+    ],
+    "speak": "Share three plans for next year: one for your English, one for your health and one for your work. Use 'I'm going to...'. Then ask a friend about their plans with four questions."
+  },
+  {
+    "id": "w018",
+    "title": "Working with the product manager",
+    "topic": "work",
+    "tag": "Product",
+    "level": "B1",
+    "tense": "presentContinuous",
+    "tenseTip": "Para situaciones temporales o que están cambiando: is/are + -ing (Users are complaining, we're testing a new idea this month).",
+    "paragraphs": [
+      "This month, I'm working very closely with our product manager, Valeria. We are building a new onboarding flow for the app, and things are changing fast. Every week we are learning something new about our users, and we are adjusting the plan.",
+      "Right now, Valeria is looking at the data. More users are downloading the app, but many of them are leaving after the first screen. She thinks the sign-up form is too long. Users are asking for their phone number, their address and their birthday before they can see anything.",
+      "So we are testing a new idea. We are showing the main screen first and asking for the data later, only when it's necessary. I'm building two versions of the flow, and half of the users are seeing the new one. We are measuring which version keeps more users.",
+      "Working with a PM is not always easy. Sometimes Valeria is asking for things that are technically difficult, and I need to explain why. For example, this week she is asking for a feature that needs a big change in the database. I said, \"We can do it, but it's going to take two weeks. Can we [[start off]] with a simpler version?\" We are [[working it out]] together.",
+      "The best part is that I'm understanding the product much better. Before, I was only reading tickets. Now I'm joining user interviews, and I'm hearing real people talk about their problems. It's changing the way I [[think about]] my code.",
+      "The results are coming in this week. The new flow is performing better, and fewer users are dropping off. Valeria is happy, and I'm already [[looking forward to]] the next experiment. We are becoming a real team, not a PM who asks and a developer who obeys."
+    ],
+    "phrases": [
+      {"text": "start off", "meaning": "empezar (con algo)", "example": "Let's start off with a small version."},
+      {"text": "working it out", "meaning": "resolviéndolo, encontrando la solución", "example": "We're still working it out with the client."},
+      {"text": "think about", "meaning": "pensar en, considerar", "example": "I'm thinking about the user, not only the code."},
+      {"text": "looking forward to", "meaning": "esperar con ganas", "example": "I'm looking forward to the release."}
+    ],
+    "questions": [
+      {"en": "What are users asking for?", "es": "¿Qué están pidiendo los usuarios?"},
+      {"en": "Can we start off with a simpler version?", "es": "¿Podemos empezar con una versión más simple?"},
+      {"en": "Which version is performing better?", "es": "¿Qué versión está funcionando mejor?"},
+      {"en": "Why is this feature important right now?", "es": "¿Por qué esta funcionalidad es importante ahora?"}
+    ],
+    "speak": "Describe a project that is happening this month: what you are building, what is changing and what users are asking for. Use 'we are ...ing'. Then ask a product manager three questions."
+  },
+  {
+    "id": "w019",
+    "title": "Never deploy on a Friday",
+    "topic": "work",
+    "tag": "Deploys",
+    "level": "B1",
+    "tense": "pastContinuous",
+    "tenseTip": "Para dar el contexto de una historia: was/were + -ing (It was raining, everybody was leaving). Lo que interrumpe va en pasado simple.",
+    "paragraphs": [
+      "There is a famous rule in software: never deploy on a Friday. I always thought it was a joke, until one Friday last year. It was four thirty in the afternoon, it was raining outside, and everybody was getting ready to leave for the weekend.",
+      "I was finishing a small change: a new field in the user settings. The tests were passing, the review was approved, and my team lead was already packing her bag. I thought, \"It's a tiny change. Why wait until Monday?\" So I clicked the deploy button and went to get my jacket.",
+      "While I was putting on my jacket, my phone vibrated. Support was receiving messages from angry users. Nobody could save their settings. I ran back to my desk. The new field was causing an error for users with old accounts, a case I didn't test because I was trying to finish fast.",
+      "My team lead saw my face and stayed. While she was reading the logs, I was trying to [[roll back]] the deploy. The rollback failed the first time, because the database was already changed. We were working on it until seven in the evening, and finally we fixed it with a small patch.",
+      "On Monday, we talked about it calmly. Nobody blamed me, but I felt terrible. We agreed on some rules: no deploys after three on Fridays, and every change to the database needs a plan to go back. Now I always ask myself, \"What happens if this fails while nobody is watching?\"",
+      "I'm not afraid of deploying anymore, but I'm more careful. I learned that small changes can still [[blow up]], and that being in a hurry is dangerous. Next time someone wants to deploy on a Friday afternoon, I'll tell them this story, and maybe they will [[hold off]] until Monday and [[play it safe]]."
+    ],
+    "phrases": [
+      {"text": "roll back", "meaning": "revertir (un deploy)", "example": "We had to roll back the release."},
+      {"text": "blow up", "meaning": "explotar, fallar de forma grave", "example": "The server blew up after the update."},
+      {"text": "hold off", "meaning": "esperar, posponer", "example": "Let's hold off on the deploy until Monday."},
+      {"text": "play it safe", "meaning": "no arriesgarse, ir a lo seguro", "example": "It's Friday. Let's play it safe."}
+    ],
+    "questions": [
+      {"en": "What were you doing when the errors started?", "es": "¿Qué estabas haciendo cuando empezaron los errores?"},
+      {"en": "Were the tests passing?", "es": "¿Las pruebas estaban pasando?"},
+      {"en": "Do we have a plan to roll back?", "es": "¿Tenemos un plan para revertir?"},
+      {"en": "Can we hold off until Monday?", "es": "¿Podemos esperar hasta el lunes?"}
+    ],
+    "speak": "Tell a story when something went wrong because you were in a hurry. Describe the scene with 'it was ...ing' and 'I was ...ing when...'. Then ask three questions to understand what happened."
+  }
+]

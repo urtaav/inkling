@@ -1,0 +1,182 @@
+[
+  {
+    "id": "w011",
+    "title": "Getting ready for demo day",
+    "topic": "work",
+    "tag": "Presentations",
+    "level": "B1",
+    "tense": "futureGoingTo",
+    "tenseTip": "Para planes ya decididos y para cosas que ves venir: going to (I'm going to show..., It's going to rain). Muy útil en presentaciones.",
+    "paragraphs": [
+      "On Friday, my company has a demo day. Every team is going to show what they built in the last month, and the whole company is going to watch, including the directors. This time, I'm going to present our new search feature, and I'm a little nervous because the presentation is going to be in English.",
+      "So today I'm preparing. First, I'm going to write a short plan. I'm going to start with the problem: users couldn't find old orders. Then I'm going to show the solution with a live demo. Finally, I'm going to share some numbers and the next steps. The whole thing is going to take five minutes.",
+      "Live demos are risky. My teammate Luis says, \"Something is going to fail, it always does.\" So I'm going to record a video of the demo too. If the internet is slow or the app crashes, I'm going to [[switch to]] the video and continue. It's always good to have a plan B.",
+      "I'm also going to [[rehearse]] the presentation at least three times. Yesterday I practiced alone, and it took nine minutes, so I need to [[cut down]] some parts. I'm not going to explain the technical details; the audience is mostly product people and managers, and they care about the user.",
+      "I know people are going to ask questions at the end. I'm going to prepare answers for the common ones: \"When is it going to be available for all users?\" and \"Is it going to work on the website too?\" If I don't know an answer, I'm going to say, \"Good question, I'll check and [[get back to]] you.\"",
+      "On Friday morning, I'm going to arrive early and test the projector. I'm sure it's going to be fine. And even if I make some mistakes in my English, people are going to understand. The important thing is the message, not a perfect accent."
+    ],
+    "phrases": [
+      {"text": "switch to", "meaning": "cambiar a", "example": "If the demo fails, I'll switch to the video."},
+      {"text": "rehearse", "meaning": "ensayar", "example": "Let's rehearse the presentation before the meeting."},
+      {"text": "cut down", "meaning": "reducir, recortar", "example": "I need to cut down my slides to five."},
+      {"text": "get back to", "meaning": "responder después", "example": "Good question. I'll get back to you tomorrow."}
+    ],
+    "questions": [
+      {"en": "When is it going to be available?", "es": "¿Cuándo va a estar disponible?"},
+      {"en": "Is it going to work on the website too?", "es": "¿También va a funcionar en el sitio web?"},
+      {"en": "Who is going to present first?", "es": "¿Quién va a presentar primero?"},
+      {"en": "How long is the demo going to take?", "es": "¿Cuánto va a durar la demo?"}
+    ],
+    "speak": "Present the plan for a demo of something you built: what you're going to show, in what order, and what you're going to do if something fails. Then ask the audience three questions with 'going to'."
+  },
+  {
+    "id": "l003",
+    "title": "At the doctor's office",
+    "topic": "life",
+    "tag": "Health",
+    "level": "A2",
+    "tense": "presentPerfect",
+    "tenseTip": "Para algo que empezó antes y sigue ahora: have/has + participio + for/since (I've had a headache for three days).",
+    "paragraphs": [
+      "I'm at the doctor's office because I haven't felt well this week. The waiting room is quiet, and I'm reading the posters on the wall. A nurse calls my name, takes my temperature and asks me to wait for the doctor in a small room.",
+      "The doctor comes in and asks, \"What brings you here today?\" I explain that I have had a headache for three days and that my eyes have been very tired. She asks, \"Have you taken any medicine?\" I tell her that I have taken some painkillers, but the headache always comes back in the afternoon.",
+      "Then she asks about my routine. \"How many hours have you worked this week?\" I think for a moment. I have worked more than fifty hours, because we have had a big release. I have also slept badly, and I have drunk a lot of coffee. She smiles, because she has heard this story many times.",
+      "She checks my eyes and my blood pressure. \"Have you ever had problems with your eyes?\" she asks. I say no, but I haven't had an eye exam for many years. She thinks my headache is because of stress and too many hours in front of a screen. She recommends that I [[cut back on]] coffee and take a break every hour.",
+      "She also tells me about the 20-20-20 rule: every twenty minutes, look at something twenty feet away for twenty seconds. It's simple, and I have never tried it. She asks me to [[come back]] in two weeks if I don't feel better, and to book an eye exam.",
+      "When I leave, I feel a bit silly but also relieved. It's nothing serious. I have decided to [[look after]] myself better: I'm going to sleep more, drink more water and stop working at night. My health is more important than any deadline, and I want to [[get over]] this headache soon."
+    ],
+    "phrases": [
+      {"text": "cut back on", "meaning": "reducir el consumo de algo", "example": "I'm trying to cut back on sugar."},
+      {"text": "come back", "meaning": "regresar, volver", "example": "Please come back next week."},
+      {"text": "look after", "meaning": "cuidar (de alguien o de ti mismo)", "example": "You need to look after your health."},
+      {"text": "get over", "meaning": "recuperarse de, superar", "example": "It took me a week to get over the flu."}
+    ],
+    "questions": [
+      {"en": "How long have you had this pain?", "es": "¿Cuánto tiempo has tenido este dolor?"},
+      {"en": "Have you taken any medicine?", "es": "¿Has tomado alguna medicina?"},
+      {"en": "Have you ever had this problem before?", "es": "¿Alguna vez habías tenido este problema?"},
+      {"en": "What should I do if it doesn't get better?", "es": "¿Qué debo hacer si no mejora?"}
+    ],
+    "speak": "You are at the doctor. Explain how you have felt this week, using 'I have...' and 'for' or 'since'. Then ask the doctor four questions about your health."
+  },
+  {
+    "id": "w012",
+    "title": "The merge conflict",
+    "topic": "work",
+    "tag": "Git",
+    "level": "B1",
+    "tense": "pastContinuous",
+    "tenseTip": "Para dos acciones que pasaban al mismo tiempo: while + was/were + -ing (While I was fixing the header, Ana was changing the menu).",
+    "paragraphs": [
+      "Last week, Ana and I had our first big merge conflict. While I was fixing the header of the website, she was redesigning the navigation menu. We were working on different tickets, but we were both changing the same file, and we didn't know it.",
+      "On Wednesday afternoon, I was finishing my work and I was feeling very proud. All my tests were passing. I tried to merge my branch, and Git showed me a big red message: conflict. Fifteen lines were in conflict, and some of them were her changes, not mine.",
+      "At first I was panicking a little. I was looking at all those arrows and equal signs, and I didn't understand which version was correct. So I sent Ana a message: \"Hi! I think we were both working on the header file. Do you have ten minutes to [[go over]] the conflict with me?\"",
+      "We joined a call and shared the screen. While she was explaining her changes, I was taking notes. Some lines were easy: we kept both. One part was harder, because we were trying to do different things with the same button. We talked about it and chose her version, because it was closer to the new design.",
+      "After twenty minutes, the conflict was solved and all the tests were passing again. We were both relieved. Ana said, \"Next time, let's tell each other when we're touching shared files.\" Now we mention it in the standup, and we merge small changes more often so we don't [[fall behind]] the main branch.",
+      "I learned that merge conflicts are not a disaster. They happen when people are working at the same time, which is normal on a team. The secret is to [[talk it over]] instead of guessing, and to never [[throw away]] someone else's work without asking."
+    ],
+    "phrases": [
+      {"text": "go over", "meaning": "revisar, repasar (juntos)", "example": "Can we go over the changes before the meeting?"},
+      {"text": "fall behind", "meaning": "quedarse atrás, atrasarse", "example": "Merge often so your branch doesn't fall behind."},
+      {"text": "talk it over", "meaning": "hablarlo, platicarlo para decidir", "example": "Let's talk it over before we decide."},
+      {"text": "throw away", "meaning": "tirar, desechar", "example": "Don't throw away the old code yet."}
+    ],
+    "questions": [
+      {"en": "Were you working on this file too?", "es": "¿También estabas trabajando en este archivo?"},
+      {"en": "Which version should we keep?", "es": "¿Qué versión debemos conservar?"},
+      {"en": "Do you have ten minutes to go over it?", "es": "¿Tienes diez minutos para revisarlo?"},
+      {"en": "What were you trying to do here?", "es": "¿Qué estabas tratando de hacer aquí?"}
+    ],
+    "speak": "Tell a story where two things were happening at the same time, using 'while I was... , she was...'. Then ask a teammate three questions about a conflict in your code."
+  },
+  {
+    "id": "w013",
+    "title": "A good pull request description",
+    "topic": "work",
+    "tag": "Code review",
+    "level": "B1",
+    "tense": "futureWill",
+    "tenseTip": "Para explicar qué pasará con un cambio: will + verbo (This change will..., Users will see...). Para ofrecer algo: I'll...",
+    "paragraphs": [
+      "A pull request is not only code. It is also a message to your teammates, and a good description will save them a lot of time. When I write one, I imagine a person who knows nothing about my task. What will they need to understand my change?",
+      "I always start with the why. \"This change will fix the problem with duplicated emails. Some users received the welcome email twice, because the job ran two times.\" In one or two sentences, the reviewer will know the goal, and they will read the code with the right context.",
+      "Then I explain the what. \"After this change, the job will check if the email was already sent before sending it. I also added a test for this case.\" If the change is big, I [[point out]] the most important file, so the reviewer will know where to start.",
+      "Next, I describe how to test it. \"To try it, run the job twice with the same user. You will see only one email in the logs.\" If there is a visual change, I add a screenshot or a short video. Reviewers will thank you for that.",
+      "Finally, I mention the risks and the things I'm not sure about. \"This will not affect old users. I'm not sure about the name of the new column; suggestions are welcome.\" Being honest about doubts invites good comments, and nobody will think less of you.",
+      "Writing a good description takes ten minutes, but it will [[speed up]] the review a lot. People will [[pick up]] your pull request faster, because it looks easy to review. And in six months, when someone wants to understand why the code works this way, they will [[come across]] your description and understand everything."
+    ],
+    "phrases": [
+      {"text": "point out", "meaning": "señalar, hacer notar", "example": "Thanks for pointing out that bug."},
+      {"text": "speed up", "meaning": "acelerar", "example": "This cache will speed up the page."},
+      {"text": "pick up", "meaning": "tomar (una tarea, un ticket, una revisión)", "example": "Can someone pick up this ticket?"},
+      {"text": "come across", "meaning": "encontrarse con algo por casualidad", "example": "I came across an old bug in the code."}
+    ],
+    "questions": [
+      {"en": "What will this change fix?", "es": "¿Qué va a arreglar este cambio?"},
+      {"en": "Will it affect old users?", "es": "¿Va a afectar a los usuarios antiguos?"},
+      {"en": "How can I test it?", "es": "¿Cómo lo puedo probar?"},
+      {"en": "Where should I start reading?", "es": "¿Por dónde debería empezar a leer?"}
+    ],
+    "speak": "Describe a change you made, as if you were writing the pull request: why, what will change and how to test it. Use 'will'. Then ask a reviewer three questions about your change."
+  },
+  {
+    "id": "w014",
+    "title": "One-on-one with my team lead",
+    "topic": "work",
+    "tag": "Career",
+    "level": "B1",
+    "tense": "presentSimple",
+    "tenseTip": "Para hablar de cómo te sientes, qué te gusta y qué quieres: presente simple (I like, I feel, I want, it takes).",
+    "paragraphs": [
+      "Every two weeks I have a one-on-one meeting with my team lead, Carla. It is a thirty-minute call, just the two of us. It is not a status meeting; we don't talk about tickets. We talk about how I feel, what I want to learn and what problems I have.",
+      "Carla usually starts with a simple question: \"How are things going?\" At first, I always answered \"Fine, thanks,\" because I didn't know what to say. Now I prepare a few notes before the meeting, so I [[make the most of]] the time.",
+      "Today I tell her that I enjoy my current project, but I feel that code reviews take too long. My pull requests wait two or three days for a review, and I lose context. She asks, \"Why do you think that happens?\" I explain that the team is busy and that nobody owns the reviews. She writes it down and says she will [[bring it up]] in the retro.",
+      "Then we talk about my growth. I want to become a senior developer in the next year. Carla asks what I think a senior does. I say that a senior designs solutions, helps other people and knows how to [[deal with]] problems without help. She agrees and suggests that I lead the design of the next feature.",
+      "I also tell her that my English worries me. In big meetings, I understand almost everything, but I don't speak much because I feel nervous. She says that my ideas are good and that people care about the ideas, not the grammar. She suggests that I speak at least once in every meeting.",
+      "One-on-ones help me a lot. They give me a safe space to share problems before they get bigger. My advice: don't just answer questions; bring your own topics. Your manager can't help you if they don't know what is going on, so [[speak up]]."
+    ],
+    "phrases": [
+      {"text": "make the most of", "meaning": "aprovechar al máximo", "example": "Prepare notes to make the most of the meeting."},
+      {"text": "bring it up", "meaning": "sacar el tema, mencionarlo", "example": "I'll bring it up in the next meeting."},
+      {"text": "deal with", "meaning": "lidiar con, resolver", "example": "A senior knows how to deal with difficult bugs."},
+      {"text": "speak up", "meaning": "hablar, decir lo que piensas", "example": "Speak up if you don't agree."}
+    ],
+    "questions": [
+      {"en": "What do you think a senior developer does?", "es": "¿Qué crees que hace un desarrollador senior?"},
+      {"en": "How can I improve my code reviews?", "es": "¿Cómo puedo mejorar mis revisiones de código?"},
+      {"en": "What do you expect from me this quarter?", "es": "¿Qué esperas de mí este trimestre?"},
+      {"en": "Do you have any feedback for me?", "es": "¿Tienes algún comentario para mí?"}
+    ],
+    "speak": "Prepare your next one-on-one: say what you like about your work, what worries you and what you want to learn, using the present simple. Then ask your lead four questions."
+  },
+  {
+    "id": "l004",
+    "title": "Cooking dinner with friends",
+    "topic": "life",
+    "tag": "Food",
+    "level": "A2",
+    "tense": "presentContinuous",
+    "tenseTip": "Para describir una escena que está pasando: is/are + -ing (Marco is cutting, the water is boiling). Ideal para contar lo que ves.",
+    "paragraphs": [
+      "It's Saturday evening, and some friends are visiting us for dinner. My kitchen is small, so it is a little crowded right now, but everybody is helping and everybody is talking at the same time. Music is playing, and the windows are open because it is getting hot.",
+      "We are cooking a big Italian dinner. Marco is cutting tomatoes and onions for the sauce. Lucia is making fresh pasta; she is mixing flour and eggs on the table, and she is explaining every step. I'm watching her carefully, because I'm trying to learn her technique.",
+      "On the stove, the water is boiling and the sauce is cooking slowly. It smells amazing. My wife is setting the table in the living room, and she is choosing the plates. Our dog is sitting in the kitchen too; he is waiting for someone to drop some food.",
+      "Lucia says, \"OK, now you're rolling the dough. Don't press too hard.\" I'm trying, but the dough is sticking to the table. Everybody is laughing at me. She shows me how to add a little flour, and now it's working better. I'm [[getting the hang of]] it.",
+      "While the pasta is cooking, we are [[catching up]]. Marco is telling us about his new job, and Lucia is talking about her trip to Italy last summer. I'm asking a lot of questions, because I love hearing about other countries and their food.",
+      "Finally, dinner is ready, and we are sitting at the table. Everyone is eating and smiling. Cooking together takes more time than ordering food, but it is much more fun, and we are [[making memories]]. I think we are going to [[do it again]] next month."
+    ],
+    "phrases": [
+      {"text": "getting the hang of", "meaning": "agarrándole la onda, aprendiendo a hacerlo", "example": "I'm getting the hang of this new framework."},
+      {"text": "catching up", "meaning": "poniéndonos al día (de nuestras vidas)", "example": "We are catching up over coffee."},
+      {"text": "making memories", "meaning": "creando recuerdos", "example": "We're making memories on this trip."},
+      {"text": "do it again", "meaning": "hacerlo otra vez", "example": "That was fun. Let's do it again!"}
+    ],
+    "questions": [
+      {"en": "What are you cooking?", "es": "¿Qué estás cocinando?"},
+      {"en": "Can you show me how to do it?", "es": "¿Me enseñas cómo hacerlo?"},
+      {"en": "How are things going at your new job?", "es": "¿Cómo te va en tu nuevo trabajo?"},
+      {"en": "Are you enjoying the food?", "es": "¿Estás disfrutando la comida?"}
+    ],
+    "speak": "Describe a scene with friends or family as if it's happening now: who is doing what, what you are eating, what everybody is talking about. Then ask four questions to the people at the table."
+  }
+]

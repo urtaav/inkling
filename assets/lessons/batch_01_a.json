@@ -1,0 +1,183 @@
+[
+  {
+    "id": "w001",
+    "title": "What I'm working on today",
+    "topic": "work",
+    "tag": "Daily standup",
+    "level": "A2",
+    "tense": "presentContinuous",
+    "tenseTip": "Para lo que haces ahora o en estos días: am/is/are + verbo con -ing (I'm working, we're testing).",
+    "paragraphs": [
+      "Every morning at nine thirty, my team has a short meeting called the daily standup. It only takes fifteen minutes, and everybody answers the same three questions: what did you do yesterday, what are you doing today, and is anything blocking you? Today it is my turn to speak first, so I'm reading my notes while I drink my coffee.",
+      "Right now I'm working on the login page of our mobile app. Users are asking for a way to sign in with their email instead of a phone number. I'm writing the form and the validation, and Carlos is building the new endpoint on the backend. We are talking a lot on Slack this week because we need to agree on the request and the response.",
+      "This morning I'm also helping a new developer to [[set up]] her laptop. She is installing the tools and I'm sharing the steps with her. It is taking longer than I expected, but she is learning fast and asking good questions.",
+      "When my turn comes, I say: \"Yesterday I finished the design of the form. Today I'm connecting it to the API. I'm not blocked, but I'm waiting for Carlos to [[push]] his changes. If they are ready before lunch, I can test everything this afternoon.\"",
+      "My team lead nods and writes something down. Then she asks, \"Are you [[running into]] any problems with the tests?\" I explain that one test is failing, but I'm [[looking into]] it and I think it is a small issue. She says that's fine and that I can [[reach out]] if I need help.",
+      "The meeting ends on time. Everybody goes back to their desks, and I open my editor. The standup is short, but it is useful: everybody knows what the others are doing, and nobody is working alone."
+    ],
+    "phrases": [
+      {"text": "set up", "meaning": "configurar, preparar algo para usarlo", "example": "Can you help me set up the database on my laptop?"},
+      {"text": "push", "meaning": "subir tus cambios al repositorio (git push)", "example": "I'll push my changes after the tests pass."},
+      {"text": "looking into", "meaning": "investigando, revisando", "example": "I'm looking into the error in the logs."},
+      {"text": "reach out", "meaning": "contactar a alguien, escribirle para pedir algo", "example": "Reach out to me if you have any questions."},
+      {"text": "running into", "meaning": "encontrarse con (un problema)", "example": "We are running into some issues with the build."}
+    ],
+    "questions": [
+      {"en": "What are you working on today?", "es": "¿En qué estás trabajando hoy?"},
+      {"en": "Is anything blocking you?", "es": "¿Hay algo que te esté bloqueando?"},
+      {"en": "Are you running into any problems?", "es": "¿Te estás encontrando con algún problema?"},
+      {"en": "When do you think it will be ready?", "es": "¿Cuándo crees que esté listo?"}
+    ],
+    "speak": "Imagine it's your turn in the daily standup. Say what you are working on this week, using 'I'm ...ing'. Then ask a teammate two of the useful questions."
+  },
+  {
+    "id": "w002",
+    "title": "The bug nobody could reproduce",
+    "topic": "work",
+    "tag": "Debugging",
+    "level": "B1",
+    "tense": "pastSimple",
+    "tenseTip": "Para algo que pasó y terminó: verbo en pasado (reported, decided, found). Con 'did' para preguntar: Did you check...?",
+    "paragraphs": [
+      "Last Monday, the QA team reported a strange bug. Some users said that the app closed when they opened their profile. The problem was that nobody on our team could reproduce it. We tried on our phones, on the emulator and on the test server, and everything worked fine.",
+      "After the daily meeting, I decided to [[look into]] it. First, I read the crash reports again. All the crashes came from the same version of Android, and all of them happened in the afternoon. That was strange, so I asked the QA engineer for more details. She sent me a video and the exact steps.",
+      "I followed her steps, but the app still didn't crash. Then I noticed something in the video: her phone was in Spanish. I changed the language of my phone, opened the profile, and the app closed immediately. Finally, I could reproduce the bug!",
+      "It took me another hour to [[figure out]] the real cause. The profile screen showed the date of the last login, and the code that formatted the date failed with some languages. In the afternoon, the date had a different format, and the app crashed. It was a small mistake in one line of code.",
+      "I wrote a test for the problem, fixed the line and opened a pull request. My teammate reviewed it and asked me to [[clean up]] a function, so I did that too. We released the fix the next day, and the crash reports stopped.",
+      "In the retrospective, I explained what happened and what I learned. I told the team that it is important to [[pay attention to]] small details, like the language of the phone. My lead said it was a good catch, and we added more languages to our automated tests."
+    ],
+    "phrases": [
+      {"text": "look into", "meaning": "investigar, revisar con calma", "example": "I'll look into the problem after lunch."},
+      {"text": "figure out", "meaning": "descubrir, entender algo después de pensar", "example": "Did you figure out why the build failed?"},
+      {"text": "clean up", "meaning": "limpiar, ordenar (código)", "example": "Please clean up this function before we merge it."},
+      {"text": "pay attention to", "meaning": "poner atención a", "example": "Pay attention to the error messages."}
+    ],
+    "questions": [
+      {"en": "Can you send me the exact steps?", "es": "¿Me puedes mandar los pasos exactos?"},
+      {"en": "Did you try it on a real device?", "es": "¿Lo probaste en un dispositivo real?"},
+      {"en": "When did it start to fail?", "es": "¿Cuándo empezó a fallar?"},
+      {"en": "What did you change?", "es": "¿Qué cambiaste?"}
+    ],
+    "speak": "Tell the story of a bug you fixed. What happened, how did you find the cause and what did you change? Then ask three questions in the past, like 'Did you...?' or 'When did...?'"
+  },
+  {
+    "id": "w003",
+    "title": "Asking for help on Slack",
+    "topic": "work",
+    "tag": "Communication",
+    "level": "A2",
+    "tense": "presentSimple",
+    "tenseTip": "Para rutinas, hechos y cosas que pasan siempre: verbo base, y -s con he/she/it (works, needs). Para preguntar: Do/Does...?",
+    "paragraphs": [
+      "Asking for help is a normal part of being a developer. Nobody knows everything, and a good question saves a lot of time. But many people don't ask, because they feel shy or they think they are interrupting. In my team, we have a simple rule: if you are stuck for more than thirty minutes, you ask.",
+      "A good question on Slack has three parts. First, you say what you want to do. Second, you explain what you tried. Third, you show the error or the result. For example: \"Hi Ana, I want to run the project locally, but the server doesn't start. I ran the install command and I deleted the cache. This is the error I get.\" Then you paste the error in a code block.",
+      "This message is easy to answer, because Ana doesn't need to ask ten questions. She reads it, understands the problem and replies quickly. Sometimes she says, \"Can you [[jump on]] a quick call?\" and we solve it together in five minutes.",
+      "It is also polite to say thanks and to [[follow up]]. When the problem is solved, I write a short message in the thread: \"Thanks, it works now. The problem was the version of Node.\" This helps other people who have the same problem later, because they can search for it.",
+      "There are some things I try not to do. I don't send a message that only says \"Hi\" and then wait. I don't send the same question to five people. And I don't ask in private when the question is useful for everybody; I ask in the team channel.",
+      "Now I ask questions more often, and I [[get stuck]] less. My teammates do the same with me. When someone asks me, I try to answer quickly, or at least I say, \"I'm busy now, but I can [[get back to]] you in an hour.\""
+    ],
+    "phrases": [
+      {"text": "jump on", "meaning": "conectarse rápido (a una llamada o reunión)", "example": "Can you jump on a call for five minutes?"},
+      {"text": "follow up", "meaning": "dar seguimiento, volver a escribir sobre algo", "example": "I'll follow up with the client tomorrow."},
+      {"text": "get stuck", "meaning": "atorarse, no poder avanzar", "example": "I always get stuck with this configuration."},
+      {"text": "get back to", "meaning": "responderle a alguien más tarde", "example": "Let me check and get back to you."}
+    ],
+    "questions": [
+      {"en": "Do you have a minute?", "es": "¿Tienes un minuto?"},
+      {"en": "Can you jump on a quick call?", "es": "¿Te puedes conectar a una llamada rápida?"},
+      {"en": "Do you know why this happens?", "es": "¿Sabes por qué pasa esto?"},
+      {"en": "Where can I find the documentation?", "es": "¿Dónde encuentro la documentación?"}
+    ],
+    "speak": "You are stuck with a problem in your project. Say your Slack message out loud with the three parts: what you want, what you tried, and the error. Then ask two questions to a teammate."
+  },
+  {
+    "id": "w004",
+    "title": "Comments on my pull request",
+    "topic": "work",
+    "tag": "Code review",
+    "level": "B1",
+    "tense": "presentPerfect",
+    "tenseTip": "Para algo que pasó en algún momento y todavía importa ahora: have/has + participio (I have fixed, she has approved). Con 'already', 'yet' y 'just'.",
+    "paragraphs": [
+      "I opened a pull request yesterday, and this morning my teammates have left twelve comments on it. When I was a junior developer, so many comments made me nervous. Now I know that a code review is not a test; it is a conversation to make the code better.",
+      "Let me see what they have said. Laura has asked me to rename a variable, because the name doesn't explain what it does. That is easy, and I have already changed it. Pedro has noticed that I haven't written tests for the error case. He is right, so I'm going to add them.",
+      "One comment is more difficult. Marco has suggested a different approach for the whole function. He thinks it is too long and hard to read. I have read his idea twice and I'm not sure it is better, so I reply: \"Thanks for the idea. Have you seen the case when the list is empty? I think your version doesn't [[deal with]] it. Can we talk about it after lunch?\"",
+      "It is important to [[push back]] politely when you disagree. You don't need to accept every comment, but you need to explain why. Sometimes the reviewer is right, sometimes you are right, and many times you find a third option together.",
+      "After lunch, Marco and I talked for ten minutes. We have agreed to split the function into two smaller ones, and we have kept my logic for the empty list. I've [[gone through]] all the other comments and marked them as resolved.",
+      "Now the pull request has two approvals and all the checks are green. I haven't merged it yet, because I want QA to [[sign off]] first. I have learned something today too: short pull requests get better comments, so next time I'm going to make it smaller."
+    ],
+    "phrases": [
+      {"text": "deal with", "meaning": "manejar, ocuparse de (un caso o problema)", "example": "This function doesn't deal with null values."},
+      {"text": "push back", "meaning": "no estar de acuerdo y decirlo, poner resistencia (con respeto)", "example": "It's OK to push back if the deadline is not realistic."},
+      {"text": "gone through", "meaning": "revisado uno por uno", "example": "I've gone through all the comments."},
+      {"text": "sign off", "meaning": "dar el visto bueno, aprobar", "example": "We need the product manager to sign off on this change."}
+    ],
+    "questions": [
+      {"en": "Have you seen this case?", "es": "¿Ya viste este caso?"},
+      {"en": "Could you explain why you prefer this approach?", "es": "¿Podrías explicar por qué prefieres este enfoque?"},
+      {"en": "Have you already merged it?", "es": "¿Ya lo hiciste merge?"},
+      {"en": "Can we talk about it after lunch?", "es": "¿Podemos hablarlo después de comer?"}
+    ],
+    "speak": "Describe your last pull request using 'I have...' and 'they have...'. What comments have you received? Then ask a reviewer two polite questions about a comment you don't agree with."
+  },
+  {
+    "id": "w005",
+    "title": "Planning the next sprint",
+    "topic": "work",
+    "tag": "Planning",
+    "level": "A2",
+    "tense": "futureGoingTo",
+    "tenseTip": "Para planes que ya decidiste: am/is/are + going to + verbo (We're going to build...). Suena a plan, no a algo que decides en el momento.",
+    "paragraphs": [
+      "Every two weeks, my team has a planning meeting. Today is that day. Our product manager, Sofia, shares her screen and shows the list of tasks for the next sprint. We have two weeks, five developers and a lot of ideas, so we need to choose carefully.",
+      "Sofia starts with the main goal: \"In this sprint, we're going to improve the checkout. A lot of users leave the app when they pay, and we want to [[find out]] why.\" Then she explains the first task. We're going to add a progress bar, so users know how many steps are left.",
+      "The designer is going to share the new screens tomorrow. Luis and I are going to build the frontend, and Daniel is going to work on the payment API. Before we start, we're going to [[break down]] the big task into smaller tickets, because big tickets are hard to estimate.",
+      "Then we talk about the risks. Daniel says, \"The payment provider is going to change their API next month. Are we going to update it in this sprint?\" Sofia thinks for a moment and decides to leave it for later. We can't do everything, and it's better to [[focus on]] one goal.",
+      "At the end, we look at the board. We have twelve tickets, and everybody thinks it is a realistic plan. Sofia asks, \"Is anyone going to be on vacation?\" I raise my hand, because I'm going to take Friday off. She writes it down and moves one small ticket to the next sprint.",
+      "Planning meetings are long, but I like them. When I leave the room, I know exactly what I'm going to do on Monday morning, and I know who to talk to if I have questions. It is easier to [[keep up with]] the work when the plan is clear."
+    ],
+    "phrases": [
+      {"text": "find out", "meaning": "averiguar, enterarse", "example": "We need to find out why users leave the app."},
+      {"text": "break down", "meaning": "dividir algo grande en partes pequeñas", "example": "Let's break down this feature into three tickets."},
+      {"text": "focus on", "meaning": "enfocarse en", "example": "This week we're going to focus on performance."},
+      {"text": "keep up with", "meaning": "ir al corriente, mantener el ritmo", "example": "It's hard to keep up with all the messages."}
+    ],
+    "questions": [
+      {"en": "What are we going to work on in this sprint?", "es": "¿En qué vamos a trabajar en este sprint?"},
+      {"en": "Who is going to take this ticket?", "es": "¿Quién va a tomar este ticket?"},
+      {"en": "Are we going to update the API?", "es": "¿Vamos a actualizar la API?"},
+      {"en": "Is anyone going to be on vacation?", "es": "¿Alguien va a estar de vacaciones?"}
+    ],
+    "speak": "Explain the plan for your next two weeks at work with 'I'm going to...' and 'we're going to...'. Then ask three planning questions with 'going to'."
+  },
+  {
+    "id": "l001",
+    "title": "Small talk at the coffee shop",
+    "topic": "life",
+    "tag": "Small talk",
+    "level": "A2",
+    "tense": "presentSimple",
+    "tenseTip": "Para hablar de ti, tus gustos y tu rutina: verbo base (I work, I like) y -s con he/she/it (She lives). Para preguntar: Do you...? / Does she...?",
+    "paragraphs": [
+      "There is a small coffee shop near my office, and I go there almost every morning. The barista's name is Leo. He knows my order, so when I come in, he usually says, \"The usual?\" and I say, \"Yes, please.\" A medium latte with no sugar. It is a small thing, but it makes my morning better.",
+      "Small talk is short and friendly conversation with people you don't know very well. It is very common in English-speaking countries, and it is a good way to practice. The topics are simple: the weather, the weekend, food, sports or work. Nobody expects a deep conversation.",
+      "Today there is a long line, so I [[chat with]] the woman behind me. I say, \"It's really cold today, isn't it?\" She laughs and says that she doesn't like winter. I ask, \"Do you work around here?\" She works in the bank next door. She tells me she comes here every Friday, because they have fresh croissants on Fridays.",
+      "When I talk to people like this, I use short questions: \"How's your day going?\", \"Do you come here often?\", \"What do you do?\" And I try to [[keep the conversation going]] with follow-up questions. If she says she likes running, I ask, \"Where do you usually run?\"",
+      "At first, small talk was hard for me. I didn't know what to say, and I felt nervous. Now I [[get along with]] people more easily, because I know some phrases by heart. If I don't understand something, I just say, \"Sorry, can you say that again?\" People are usually patient.",
+      "Leo calls my name and gives me my coffee. I say goodbye to the woman: \"Nice talking to you. Have a good one!\" Then I walk to the office. Five minutes of small talk every day doesn't take much time, and it really helps me to [[warm up]] my English before work."
+    ],
+    "phrases": [
+      {"text": "chat with", "meaning": "platicar con", "example": "I like to chat with my neighbors in the morning."},
+      {"text": "keep the conversation going", "meaning": "mantener viva la conversación", "example": "Ask questions to keep the conversation going."},
+      {"text": "get along with", "meaning": "llevarse bien con", "example": "I get along with everybody on my team."},
+      {"text": "warm up", "meaning": "calentar, prepararse antes de algo", "example": "I read a short text to warm up before my meeting."}
+    ],
+    "questions": [
+      {"en": "Do you come here often?", "es": "¿Vienes seguido aquí?"},
+      {"en": "How's your day going?", "es": "¿Cómo va tu día?"},
+      {"en": "What do you do?", "es": "¿A qué te dedicas?"},
+      {"en": "Sorry, can you say that again?", "es": "Perdón, ¿lo puedes repetir?"}
+    ],
+    "speak": "Pretend you meet someone in a coffee line. Introduce yourself, say what you do and what you like, and ask four small-talk questions. Keep the conversation going for one minute."
+  }
+]

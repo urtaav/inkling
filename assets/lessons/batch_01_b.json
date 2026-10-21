@@ -1,0 +1,182 @@
+[
+  {
+    "id": "w006",
+    "title": "How long will it take?",
+    "topic": "work",
+    "tag": "Estimation",
+    "level": "B1",
+    "tense": "futureWill",
+    "tenseTip": "Para predicciones, promesas y decisiones del momento: will + verbo (It will take two days. I'll check it.). Negativo: won't.",
+    "paragraphs": [
+      "\"How long will it take?\" This is probably the question developers hear most often. Managers need dates, clients need dates, and everybody wants an exact answer. But software is full of surprises, so estimating is one of the hardest parts of our job.",
+      "Yesterday my manager asked me to estimate a new feature: users will be able to export their reports as PDF files. My first thought was, \"That will be easy, maybe one day.\" But I didn't answer immediately. I said, \"Let me check the code and I'll [[get back to]] you this afternoon.\"",
+      "I opened the project and looked at the reports module. The code was old, and there were no tests. I realized that the PDF part won't be the difficult part. The difficult part will be to [[clean up]] the old code first, so I don't break anything. I also need to find a library that supports Spanish characters.",
+      "So I [[came up with]] an estimate in three parts. Research and choosing a library will take half a day. Refactoring and writing tests will take two days. Building the export will take one or two days. In total, it will probably take four or five days, not one.",
+      "When I explained this to my manager, she wasn't happy at first, but she understood. She asked, \"Will it be ready before the end of the month?\" I said, \"Yes, I think so. If I find any problems, I'll tell you immediately.\" A clear plan with risks is better than a fast promise that you can't keep.",
+      "I have learned a simple rule: never give an estimate on the spot. Take some time, [[think it through]], and give a range instead of one number. People will trust you more if your estimates are realistic, even when they are longer than they expected."
+    ],
+    "phrases": [
+      {"text": "get back to", "meaning": "responderle a alguien después", "example": "I'll get back to you after the meeting."},
+      {"text": "clean up", "meaning": "limpiar, ordenar (código)", "example": "We'll clean up the old code first."},
+      {"text": "came up with", "meaning": "se le ocurrió, propuso (una idea o un plan)", "example": "She came up with a better solution."},
+      {"text": "think it through", "meaning": "pensarlo bien, con calma", "example": "Don't decide now. Think it through."}
+    ],
+    "questions": [
+      {"en": "How long will it take?", "es": "¿Cuánto tiempo va a tomar?"},
+      {"en": "Will it be ready before Friday?", "es": "¿Estará listo antes del viernes?"},
+      {"en": "What will happen if we find a problem?", "es": "¿Qué pasará si encontramos un problema?"},
+      {"en": "Can I get back to you this afternoon?", "es": "¿Te puedo responder en la tarde?"}
+    ],
+    "speak": "Your manager asks you to estimate a new feature. Explain your estimate in parts using 'it will take...' and 'I'll...'. Then ask your manager three questions about the deadline."
+  },
+  {
+    "id": "w007",
+    "title": "The night production went down",
+    "topic": "work",
+    "tag": "Incidents",
+    "level": "B1",
+    "tense": "pastContinuous",
+    "tenseTip": "Para algo que estaba pasando cuando ocurrió otra cosa: was/were + -ing (I was watching a movie when the alert came). La acción corta va en pasado simple.",
+    "paragraphs": [
+      "It was a Thursday night, around eleven o'clock. I was watching a movie with my wife, and my phone was charging on the table. Suddenly it started to vibrate again and again. The monitoring system was sending alerts: the website was down.",
+      "I opened my laptop and joined the incident channel. Two other developers were already there. Marta was checking the servers, and Jorge was reading the logs. The error rate was growing every minute, and customers were writing to support because they couldn't log in.",
+      "While we were looking at the dashboards, Marta noticed something. The database was using one hundred percent of its CPU. Someone asked, \"What changed today?\" We checked the deploys, and we found it: at ten forty, while most of us were sleeping or relaxing, an automatic job started a big migration on the users table.",
+      "We decided to stop the job and [[roll back]] the migration. Jorge was writing the commands while I was reading them out loud, so we didn't make a mistake. After five minutes, the database [[calmed down]], and users were able to log in again. The website was back at eleven forty.",
+      "The next morning, nobody was looking for someone to blame. We had a meeting to understand what happened. The migration was running at the wrong time, and nobody was watching it. We wrote a document with the timeline and three actions to make sure it doesn't [[happen again]].",
+      "Now big migrations only run during working hours, and somebody always [[keeps an eye on]] them. That night I didn't finish my movie, but I learned a lot. Incidents are stressful, but a calm team that talks clearly can fix almost anything."
+    ],
+    "phrases": [
+      {"text": "roll back", "meaning": "revertir (un cambio, un deploy)", "example": "Let's roll back to the previous version."},
+      {"text": "calmed down", "meaning": "se calmó, se estabilizó", "example": "The servers calmed down after we stopped the job."},
+      {"text": "happen again", "meaning": "volver a pasar", "example": "We need to make sure it doesn't happen again."},
+      {"text": "keeps an eye on", "meaning": "vigila, está pendiente de", "example": "Someone keeps an eye on the logs during the release."}
+    ],
+    "questions": [
+      {"en": "What were you doing when the alert came?", "es": "¿Qué estabas haciendo cuando llegó la alerta?"},
+      {"en": "What changed today?", "es": "¿Qué cambió hoy?"},
+      {"en": "Who was watching the migration?", "es": "¿Quién estaba vigilando la migración?"},
+      {"en": "How can we make sure it doesn't happen again?", "es": "¿Cómo nos aseguramos de que no vuelva a pasar?"}
+    ],
+    "speak": "Tell the story of a problem at work or at home. Describe what you were doing when it started, using 'I was ...ing when...'. Then ask three questions with 'were you' or 'was it'."
+  },
+  {
+    "id": "w008",
+    "title": "My first week on a new team",
+    "topic": "work",
+    "tag": "Onboarding",
+    "level": "A2",
+    "tense": "presentPerfect",
+    "tenseTip": "Para experiencias y cosas que ya hiciste sin decir cuándo: have/has + participio (I have met, I've never used). Preguntas: Have you...?",
+    "paragraphs": [
+      "I started a new job last Monday, and this is my first week on the team. It has been an intense week. I have met a lot of people, I have read a lot of documentation, and I have asked many, many questions.",
+      "So far, I have [[set up]] my laptop, I have installed the project, and I have run the tests. Everything works, which is a good start. My buddy, Elena, has helped me a lot. She has shown me the architecture of the app and she has explained how the team works.",
+      "The project uses some tools that I have never used before. I have worked with React for three years, but I haven't used GraphQL yet. Elena told me not to worry. She has shared some tutorials with me, and I'm going to [[go through]] them this weekend.",
+      "Yesterday I fixed my first small bug. It was only a typo in a button, but I have already opened my first pull request, and two people have approved it. It feels good to contribute something in the first week. I have also written my first message in the team channel, and three people have replied to welcome me.",
+      "There are also things I haven't done yet. I haven't joined the on-call rotation, and I haven't talked to the product team. My manager said that is normal, and that I will [[get used to]] the codebase little by little. Nobody expects me to know everything now.",
+      "Have you ever started a new job in a different language? It's tiring, because I need to [[pay attention to]] every meeting. But my English has already improved this week, and I've learned a lot of new words. I'm tired, but I'm happy with my decision."
+    ],
+    "phrases": [
+      {"text": "set up", "meaning": "configurar, dejar listo", "example": "Have you set up your development environment?"},
+      {"text": "go through", "meaning": "revisar, estudiar algo completo", "example": "Let's go through the documentation together."},
+      {"text": "get used to", "meaning": "acostumbrarse a", "example": "You'll get used to the new tools soon."},
+      {"text": "pay attention to", "meaning": "poner atención a", "example": "I pay attention to how my teammates name things."}
+    ],
+    "questions": [
+      {"en": "Have you ever used GraphQL?", "es": "¿Alguna vez has usado GraphQL?"},
+      {"en": "Has anyone reviewed my pull request?", "es": "¿Alguien ya revisó mi pull request?"},
+      {"en": "What have I missed?", "es": "¿Qué me he perdido?"},
+      {"en": "Who should I talk to about this?", "es": "¿Con quién debo hablar de esto?"}
+    ],
+    "speak": "Talk about your experience as a developer with 'I have...' and 'I haven't... yet'. Which tools have you used? Then ask a new teammate three questions starting with 'Have you ever...?'"
+  },
+  {
+    "id": "l002",
+    "title": "A weekend in the mountains",
+    "topic": "life",
+    "tag": "Travel",
+    "level": "A2",
+    "tense": "pastSimple",
+    "tenseTip": "Para contar lo que hiciste: verbo en pasado (went, stayed, saw). Muchos verbos comunes son irregulares: go-went, see-saw, eat-ate.",
+    "paragraphs": [
+      "Last weekend, my wife and I needed a break from the city, so we decided to go to the mountains. We didn't plan much. On Friday night, we booked a small cabin online, and on Saturday morning we [[set off]] at seven o'clock.",
+      "The drive took about three hours. We stopped in a small town for breakfast and ate some delicious quesadillas. The road to the mountains was narrow, and there was some fog, so I drove very slowly. When we arrived, the air was cold and fresh, and it smelled like pine trees.",
+      "The cabin was simple but cozy. It had a fireplace, a small kitchen and a big window with a view of the forest. We left our bags and went for a walk. We followed a trail for two hours and saw a waterfall. My wife took a lot of photos, and I just enjoyed the silence.",
+      "In the evening, it got very cold. We lit the fireplace, cooked pasta and played cards. There was no internet, and at first I didn't like that. I usually check my phone all the time. But after an hour, I forgot about it, and we talked for a long time.",
+      "On Sunday morning, we woke up early to see the sunrise. Then we had coffee on the small terrace and [[packed up]] our things. On the way back, there was a lot of traffic, and we got home at six in the evening.",
+      "The trip was short, but it really helped me to [[recharge]]. On Monday I felt more relaxed and more focused at work. I learned that sometimes the best thing for my productivity is to [[unplug]] for a weekend."
+    ],
+    "phrases": [
+      {"text": "set off", "meaning": "salir, ponerse en camino", "example": "We set off early to avoid the traffic."},
+      {"text": "packed up", "meaning": "empacamos, recogimos nuestras cosas", "example": "We packed up and left the hotel at noon."},
+      {"text": "recharge", "meaning": "recargar energía, descansar", "example": "I need a weekend to recharge."},
+      {"text": "unplug", "meaning": "desconectarse (de la tecnología)", "example": "On vacation, I try to unplug completely."}
+    ],
+    "questions": [
+      {"en": "Where did you go last weekend?", "es": "¿A dónde fuiste el fin de semana pasado?"},
+      {"en": "How long did the drive take?", "es": "¿Cuánto tiempo tomó el viaje en coche?"},
+      {"en": "What did you do there?", "es": "¿Qué hiciste allá?"},
+      {"en": "Did you have a good time?", "es": "¿La pasaste bien?"}
+    ],
+    "speak": "Describe your last weekend or your last trip: where you went, what you did and what you ate. Then ask a friend four questions in the past."
+  },
+  {
+    "id": "w009",
+    "title": "Explaining a bug to QA",
+    "topic": "work",
+    "tag": "Testing",
+    "level": "B1",
+    "tense": "presentSimple",
+    "tenseTip": "Para explicar cómo funciona algo o cuándo pasa: presente simple (When the user taps..., the app shows...). Muy útil para describir pasos.",
+    "paragraphs": [
+      "Developers and QA engineers work together every day, but sometimes we speak different languages. QA thinks about what the user sees. Developers think about the code. When I explain a bug or a fix to QA, I try to describe the behavior, not the code.",
+      "Here is a typical example. QA reports: \"The discount doesn't appear on the cart.\" After I [[look into]] it, I need to explain what happens and how to test the fix. So I write: \"The discount only appears when the user is logged in. If the user adds products as a guest and logs in later, the cart doesn't update.\"",
+      "Then I describe the steps to test it. \"First, open the app without logging in. Add two products to the cart. Then log in with a user that has a discount. The cart now shows the discount immediately. Before the fix, it only appeared after you closed the app.\"",
+      "I also say what the fix doesn't change, so QA can [[focus on]] the right area. \"This change only affects the cart. The checkout and the payment work the same as before.\" And I mention the edge cases: \"Please also try it with an expired discount. In that case, the app shows a message.\"",
+      "Good QA engineers always ask questions, and I try to answer them clearly. Maria often asks, \"Does it work on the tablet too?\" or \"What happens if the connection is slow?\" These questions help me find problems before the users do.",
+      "When the explanation is clear, QA tests faster and we send fewer messages. It also shows respect for their work. I don't [[throw a fix over the wall]] and hope for the best; we [[work together]] to make sure it really works."
+    ],
+    "phrases": [
+      {"text": "look into", "meaning": "investigar, revisar", "example": "Let me look into it and I'll tell you."},
+      {"text": "focus on", "meaning": "enfocarse en", "example": "Please focus on the checkout screen."},
+      {"text": "throw a fix over the wall", "meaning": "entregar un arreglo sin explicar ni acompañar (expresión)", "example": "We don't throw code over the wall to the QA team."},
+      {"text": "work together", "meaning": "trabajar juntos", "example": "Developers and designers work together on this feature."}
+    ],
+    "questions": [
+      {"en": "Does it work on the tablet too?", "es": "¿También funciona en la tablet?"},
+      {"en": "What happens if the connection is slow?", "es": "¿Qué pasa si la conexión es lenta?"},
+      {"en": "Which steps do I need to follow?", "es": "¿Qué pasos tengo que seguir?"},
+      {"en": "Does this change affect the checkout?", "es": "¿Este cambio afecta el checkout?"}
+    ],
+    "speak": "Explain a bug and its fix to a QA engineer: what the user sees, the steps to test it and the edge cases. Use the present simple. Then ask QA three questions that start with 'Does...?' or 'What happens if...?'"
+  },
+  {
+    "id": "w010",
+    "title": "A session of pair programming",
+    "topic": "work",
+    "tag": "Collaboration",
+    "level": "A2",
+    "tense": "presentContinuous",
+    "tenseTip": "Para describir lo que pasa en este momento, como si narraras: am/is/are + -ing (She's typing, I'm watching).",
+    "paragraphs": [
+      "It's Tuesday afternoon, and Diego and I are pair programming. We are sitting in front of the same screen, but we are on a video call, because he lives in another city. He is sharing his screen and I'm watching his code.",
+      "In pair programming, one person is the driver and the other is the navigator. Right now, Diego is driving: he is typing the code. I'm navigating: I'm thinking about the next steps, reading the code and looking for mistakes. Every thirty minutes, we [[switch roles]].",
+      "We are building a search feature for our app. At the moment, Diego is writing a function that filters the results. I'm noticing that he is repeating the same code in two places. I say, \"Hey, I think we're repeating this part. What do you think if we [[pull it out]] into a small function?\" He agrees and changes it.",
+      "Now it's my turn to drive. I'm writing a test for the empty search, and Diego is checking the requirements in the ticket. He says, \"Wait, the ticket says we're also showing recent searches. Are we handling that?\" We aren't, so I'm adding a note to do it next.",
+      "Pair programming is tiring, because you are concentrating all the time and talking at the same time. But it is also very effective. We are finding bugs early, and we are learning from each other. Diego is teaching me shortcuts in the editor, and I'm showing him a better way to write tests.",
+      "It's five o'clock, and we are [[wrapping up]]. We are pushing the code and writing a short summary in the ticket. Tomorrow we are continuing with the recent searches. I'm tired, but I feel that we are [[making progress]] fast."
+    ],
+    "phrases": [
+      {"text": "switch roles", "meaning": "cambiar de papel, intercambiar roles", "example": "Let's switch roles every thirty minutes."},
+      {"text": "pull it out", "meaning": "sacarlo, extraerlo (a otra función)", "example": "This logic is repeated. Let's pull it out."},
+      {"text": "wrapping up", "meaning": "terminando, cerrando", "example": "We're wrapping up the meeting now."},
+      {"text": "making progress", "meaning": "avanzando, progresando", "example": "We're making progress with the new feature."}
+    ],
+    "questions": [
+      {"en": "What are you trying to do here?", "es": "¿Qué estás tratando de hacer aquí?"},
+      {"en": "Are we handling the empty case?", "es": "¿Estamos manejando el caso vacío?"},
+      {"en": "What do you think if we pull it out?", "es": "¿Qué te parece si lo extraemos?"},
+      {"en": "Do you want to drive now?", "es": "¿Quieres escribir tú ahora?"}
+    ],
+    "speak": "Describe, as if it's happening now, a moment of working with a teammate: who is typing, what you are building, what you are noticing. Use 'is ...ing'. Then ask three questions with 'Are we...?' or 'What are you...?'"
+  }
+]

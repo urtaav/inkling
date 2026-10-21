@@ -1,0 +1,182 @@
+[
+  {
+    "id": "l006",
+    "title": "Moving day",
+    "topic": "life",
+    "tag": "Home",
+    "level": "A2",
+    "tense": "pastContinuous",
+    "tenseTip": "Para describir cómo estaba todo en un momento del pasado: was/were + -ing (People were carrying boxes, the dog was barking).",
+    "paragraphs": [
+      "Last month, my wife and I moved to a new apartment. We were living in a small place in the center of the city, and we were paying too much for it. The new apartment is bigger, quieter and closer to a park. But moving day was chaos.",
+      "The truck arrived at eight in the morning. It was raining a little, and the movers were carrying boxes down the stairs because the elevator wasn't working. My wife was giving instructions, and I was trying to [[keep track of]] all the boxes with a list on my phone.",
+      "While the movers were loading the furniture, our neighbor came out to say goodbye. She was holding a small plant as a gift. We were talking at the door when I heard a loud noise. One of the movers was carrying the mirror, and it hit the wall. Luckily, it didn't break.",
+      "At the new apartment, everything was a mess. Boxes were everywhere, the dog was running around nervously, and we were looking for the box with the coffee maker. By two o'clock, we were very tired and hungry, so we ordered pizza and ate it on the floor, because the table was still in pieces.",
+      "In the evening, I was [[putting together]] the bed while my wife was unpacking the kitchen. We were listening to music and laughing about the day. It was raining harder now, and we were happy to be inside, in our new home.",
+      "It took us almost two weeks to [[settle in]]. Now everything has its place, and we love the new neighborhood. I'm glad I made a list of the boxes, because without it we were never going to find the cables of my computer. Next time, I'm going to hire a company to [[pack up]] everything for us."
+    ],
+    "phrases": [
+      {"text": "keep track of", "meaning": "llevar el control de, no perder de vista", "example": "I use an app to keep track of my expenses."},
+      {"text": "putting together", "meaning": "armando (un mueble, algo con partes)", "example": "I spent an hour putting together the desk."},
+      {"text": "settle in", "meaning": "instalarse, adaptarse a un lugar nuevo", "example": "It takes time to settle in a new city."},
+      {"text": "pack up", "meaning": "empacar todo", "example": "We need to pack up the kitchen first."}
+    ],
+    "questions": [
+      {"en": "Where were you living before?", "es": "¿Dónde vivías antes?"},
+      {"en": "What were you doing when it happened?", "es": "¿Qué estabas haciendo cuando pasó?"},
+      {"en": "How long did it take to settle in?", "es": "¿Cuánto tardaste en instalarte?"},
+      {"en": "Do you like your new neighborhood?", "es": "¿Te gusta tu nuevo barrio?"}
+    ],
+    "speak": "Describe a busy day from your past (a move, a trip, a party). Paint the scene with 'people were ...ing' and 'I was ...ing'. Then ask three questions about someone else's busy day."
+  },
+  {
+    "id": "w020",
+    "title": "Learning a new framework",
+    "topic": "work",
+    "tag": "Learning",
+    "level": "B1",
+    "tense": "presentPerfect",
+    "tenseTip": "Para lo que has avanzado hasta hoy: have/has + participio, con 'already' (ya), 'yet' (todavía, al final en negativas y preguntas) y 'so far' (hasta ahora).",
+    "paragraphs": [
+      "For the last three weeks, I have been in a new situation: my company decided to build a mobile app with Flutter, and I have never used it before. I have worked with web technologies for years, so this is a big change. It has been challenging, but also exciting.",
+      "So far, I have finished the official tutorial and I have built a small to-do app. I have learned how widgets work and how to manage state. I haven't learned animations yet, and I haven't published anything in the store. That is the next step.",
+      "The hardest part has been the way of thinking. In web development, I have always used HTML and CSS. In Flutter, everything is a widget, and at first it felt strange. I have made a lot of mistakes, and I have read the same error messages many times. But little by little, things have started to make sense.",
+      "Some resources have helped me a lot. I've watched the official videos, I've read other people's code on GitHub, and I've asked questions in the team channel. My teammate Pablo has used Flutter for two years, and he has reviewed my code every week. His comments have saved me a lot of time.",
+      "I have also changed my method. At first, I tried to read everything before I wrote any code. Now I [[jump in]], build something small and look for answers when I [[get stuck]]. I have learned more in these weeks of practice than in a month of reading.",
+      "Have you ever learned a new technology at work? My advice is to be patient with yourself. You won't understand everything in one week, and that's normal. I've already [[caught up]] with the basics, and I'm sure I'll [[get there]] with the rest."
+    ],
+    "phrases": [
+      {"text": "jump in", "meaning": "lanzarse, empezar sin esperar", "example": "Don't wait. Just jump in and start coding."},
+      {"text": "get stuck", "meaning": "atorarse", "example": "I get stuck with the same error every day."},
+      {"text": "caught up", "meaning": "me puse al corriente, alcancé el nivel", "example": "I've caught up with the rest of the team."},
+      {"text": "get there", "meaning": "lograrlo, llegar a la meta", "example": "It's hard, but you'll get there."}
+    ],
+    "questions": [
+      {"en": "Have you ever used Flutter?", "es": "¿Alguna vez has usado Flutter?"},
+      {"en": "What have you built so far?", "es": "¿Qué has construido hasta ahora?"},
+      {"en": "Have you published it yet?", "es": "¿Ya lo publicaste?"},
+      {"en": "Which resources have helped you the most?", "es": "¿Qué recursos te han ayudado más?"}
+    ],
+    "speak": "Talk about a technology you are learning: what you have done so far, what you haven't done yet and what has helped you. Then ask a colleague three questions with 'Have you...?'"
+  },
+  {
+    "id": "l007",
+    "title": "Buying a new laptop",
+    "topic": "life",
+    "tag": "Shopping",
+    "level": "A2",
+    "tense": "futureWill",
+    "tenseTip": "Para decisiones en el momento y predicciones: will (I'll take this one, It will be faster). En tiendas: I'll take it, I'll think about it.",
+    "paragraphs": [
+      "My laptop is six years old, and it is very slow now. It takes five minutes to start, and the battery only lasts one hour. So today I'm at an electronics store, and I'm finally going to buy a new one. A salesperson comes and asks, \"Can I help you?\"",
+      "I tell him that I'm a developer and that I need a fast computer. He shows me three models. \"This one is the cheapest, but it will be slow for big projects. This one is more expensive, but it will run everything easily, and the battery will last all day.\"",
+      "I ask, \"Will it be good for running virtual machines and Android emulators?\" He says yes, but he recommends more memory. \"With sixteen gigabytes, you will notice the difference. With eight, you will have problems in a year or two.\" I think he is right.",
+      "The price is a little high, so I ask, \"Is there any discount this week?\" He checks and says, \"If you buy it today, you'll get a free bag and a ten percent discount.\" I still hesitate. Then he says, \"You can return it in thirty days if you don't like it.\" OK, that helps. I say, \"I'll take it.\"",
+      "At the cash register, he asks if I want an extended warranty. I say, \"No, thanks. I'll [[think it over]].\" I prefer to read the conditions at home. He also offers to [[transfer]] my files, but I'll do it myself this weekend.",
+      "On the way home, I'm excited. I think this laptop will last at least five years. I'll [[back up]] my old files, I'll install my tools, and on Monday I'll start work with a fast computer. I won't miss my old laptop, but I will [[hand it down]] to my nephew, because it's still good for school."
+    ],
+    "phrases": [
+      {"text": "think it over", "meaning": "pensarlo bien", "example": "Thanks for the offer. I'll think it over."},
+      {"text": "transfer", "meaning": "transferir, pasar (archivos)", "example": "Can you transfer my photos to the new phone?"},
+      {"text": "back up", "meaning": "respaldar, hacer copia de seguridad", "example": "Always back up your files before an update."},
+      {"text": "hand it down", "meaning": "heredárselo, pasárselo a alguien más", "example": "I'll hand down my old phone to my sister."}
+    ],
+    "questions": [
+      {"en": "Will it be good for programming?", "es": "¿Será bueno para programar?"},
+      {"en": "Is there any discount this week?", "es": "¿Hay algún descuento esta semana?"},
+      {"en": "How long will the battery last?", "es": "¿Cuánto durará la batería?"},
+      {"en": "Can I return it if I don't like it?", "es": "¿Lo puedo devolver si no me gusta?"}
+    ],
+    "speak": "You are in a store buying something important. Ask the salesperson four questions, and use 'I'll...' to make decisions ('I'll take it', 'I'll think about it')."
+  },
+  {
+    "id": "w021",
+    "title": "My remote work routine",
+    "topic": "work",
+    "tag": "Remote work",
+    "level": "A2",
+    "tense": "presentSimple",
+    "tenseTip": "Para tu rutina: presente simple con palabras de frecuencia (always, usually, sometimes, never). Van antes del verbo: I usually start at nine.",
+    "paragraphs": [
+      "I work from home four days a week, and I go to the office on Wednesdays. Working remotely has many advantages, but it also needs discipline. Without a routine, the day becomes chaotic, so I try to follow the same plan every day.",
+      "I usually wake up at seven. I never check my email in bed. First, I make coffee and take my dog for a short walk. This walk is important, because it is my way of [[going to work]]: when I come back, the work day starts.",
+      "I start at eight thirty. I always begin with the most difficult task, because my head is fresh in the morning. I close Slack for the first two hours and I only open it at ten thirty, before the daily meeting. My team knows this, and they call me if something is urgent.",
+      "At one o'clock, I have lunch away from my desk. I sometimes cook, and sometimes I go to a small restaurant near my house. In the afternoon, I usually have meetings, code reviews and pair programming sessions. I try to [[stand up]] and stretch every hour, because my back hurts if I don't.",
+      "The hardest part of remote work is to stop. When your office is in your house, it's easy to work until nine at night. So I have a rule: at six, I close the laptop and I [[log off]] completely. I don't read work messages on my phone in the evening.",
+      "Some people feel lonely when they work from home. I feel that too sometimes, so I [[make an effort]] to talk to people. I call a teammate for a quick chat, or I work from a coffee shop on Fridays. Remote work is not perfect, but with a good routine, it works very well for me."
+    ],
+    "phrases": [
+      {"text": "going to work", "meaning": "ir al trabajo (aquí: la sensación de empezar el día laboral)", "example": "My walk is my way of going to work."},
+      {"text": "stand up", "meaning": "ponerse de pie", "example": "Stand up and stretch every hour."},
+      {"text": "log off", "meaning": "desconectarse (del trabajo o de una cuenta)", "example": "I log off at six every day."},
+      {"text": "make an effort", "meaning": "hacer un esfuerzo", "example": "I make an effort to speak English every day."}
+    ],
+    "questions": [
+      {"en": "Do you work from home?", "es": "¿Trabajas desde casa?"},
+      {"en": "What time do you usually start?", "es": "¿A qué hora empiezas normalmente?"},
+      {"en": "How do you stay focused?", "es": "¿Cómo te mantienes concentrado?"},
+      {"en": "Do you ever feel lonely?", "es": "¿Alguna vez te sientes solo?"}
+    ],
+    "speak": "Describe your normal work day from morning to evening, using 'always', 'usually', 'sometimes' and 'never'. Then ask a colleague four questions about their routine."
+  },
+  {
+    "id": "l008",
+    "title": "Starting to exercise",
+    "topic": "life",
+    "tag": "Health",
+    "level": "A2",
+    "tense": "futureGoingTo",
+    "tenseTip": "Para planes concretos y cosas que ya decidiste: going to (I'm going to run three times a week). También para predicciones con pruebas: It's going to hurt!",
+    "paragraphs": [
+      "I sit in front of a computer for nine or ten hours every day. My back hurts, I'm always tired, and last week I could not climb the stairs to my apartment without stopping. That was the moment I decided: I'm going to start exercising. Not next year, but next Monday.",
+      "I'm not going to do anything crazy. My plan is simple. I'm going to walk for thirty minutes in the morning, three days a week, and on the weekend I'm going to ride my bike in the park. After one month, I'm going to start running a little.",
+      "My friend Ana runs every day, and she gave me some advice. \"You're going to feel tired the first week. Your legs are going to hurt. Don't stop. After two weeks, you're going to feel much better.\" She also said I'm going to need good shoes, so tomorrow I'm going to buy some.",
+      "I'm also going to change some habits at work. I'm going to take the stairs instead of the elevator, and I'm going to stand up during phone calls. My teammate and I are going to have walking meetings when we only need to talk, not share a screen.",
+      "To stay motivated, I'm going to [[keep track of]] my progress in an app. Every time I exercise, I'm going to write it down. I know some days I'm not going to want to go out, especially when it's cold. On those days, I'm going to do just ten minutes, because ten minutes is better than nothing.",
+      "I'm a little scared that I'm going to [[give up]] after two weeks, like other times. But this time I'm going to start small and [[build up]] slowly. If I miss a day, I'm going to [[get back on track]] the next morning, without feeling guilty."
+    ],
+    "phrases": [
+      {"text": "keep track of", "meaning": "llevar el registro de", "example": "I keep track of my workouts in an app."},
+      {"text": "give up", "meaning": "rendirse, dejarlo", "example": "Don't give up after one bad week."},
+      {"text": "build up", "meaning": "aumentar poco a poco", "example": "Start slowly and build up your time."},
+      {"text": "get back on track", "meaning": "retomar el rumbo, volver a la rutina", "example": "I missed a day, but I got back on track."}
+    ],
+    "questions": [
+      {"en": "Are you going to start this week?", "es": "¿Vas a empezar esta semana?"},
+      {"en": "How often are you going to exercise?", "es": "¿Qué tan seguido vas a hacer ejercicio?"},
+      {"en": "What are you going to do if it rains?", "es": "¿Qué vas a hacer si llueve?"},
+      {"en": "Do you want to join me?", "es": "¿Quieres acompañarme?"}
+    ],
+    "speak": "Explain a plan to change one habit (exercise, sleep, food), with 'I'm going to...'. Then ask a friend four questions about their plans."
+  },
+  {
+    "id": "l009",
+    "title": "A call to customer service",
+    "topic": "life",
+    "tag": "Phone calls",
+    "level": "B1",
+    "tense": "pastSimple",
+    "tenseTip": "Para contar paso a paso lo que pasó: pasado simple (I called, she asked, they didn't answer). Negativas con didn't + verbo base.",
+    "paragraphs": [
+      "Last Tuesday, I received my internet bill, and it was almost double the normal price. I checked the details and saw a charge for a TV service that I never asked for. I was angry, but I decided to call customer service and solve it calmly, in English, because the company is American.",
+      "I called at nine in the morning. First, a machine answered and asked me to press numbers. I pressed two for billing, then one for problems with my bill. I waited on hold for twenty minutes, listening to terrible music. Finally, a woman named Jessica answered.",
+      "I explained the problem slowly: \"Hi, I received my bill yesterday, and there's a charge for a TV service. I didn't sign up for it.\" She asked for my account number and my address, and she checked my account. Then she said, \"I see. The service was added on the fifth of this month.\"",
+      "I asked her who added it, and she said she didn't know. Maybe it was a mistake in the system. I asked, \"Can you remove it and give me a refund?\" She put me on hold again for five minutes. When she came back, she said she removed the service and that the refund will appear on my next bill.",
+      "Before I [[hung up]], I asked her to send me a confirmation by email, and I wrote down her name and the case number. This is important, because if the problem continues, I can call again and [[refer to]] that case.",
+      "I was nervous before the call, because phone calls in English are harder than face-to-face conversations. You can't see the other person, and the connection is sometimes bad. But it went well. I spoke slowly, I asked her to repeat when I didn't understand, and I didn't [[lose my temper]]. Two days later, the confirmation arrived, and the problem was [[sorted out]]."
+    ],
+    "phrases": [
+      {"text": "hung up", "meaning": "colgué (el teléfono)", "example": "Before I hung up, I asked for the case number."},
+      {"text": "refer to", "meaning": "hacer referencia a, mencionar", "example": "Please refer to this case number if you call again."},
+      {"text": "lose my temper", "meaning": "perder la paciencia, enojarme", "example": "I try not to lose my temper on the phone."},
+      {"text": "sorted out", "meaning": "resuelto, arreglado", "example": "Don't worry, the problem is sorted out."}
+    ],
+    "questions": [
+      {"en": "Could you check my account, please?", "es": "¿Podría revisar mi cuenta, por favor?"},
+      {"en": "Can you remove it and give me a refund?", "es": "¿Puede quitarlo y hacerme un reembolso?"},
+      {"en": "Could you send me a confirmation by email?", "es": "¿Me podría mandar una confirmación por correo?"},
+      {"en": "Sorry, could you repeat that more slowly?", "es": "Perdón, ¿podría repetirlo más despacio?"}
+    ],
+    "speak": "Tell the story of a problem you solved by phone or chat: what happened, what you said and what they did. Use the past simple. Then practice four polite questions you can ask customer service."
+  }
+]
