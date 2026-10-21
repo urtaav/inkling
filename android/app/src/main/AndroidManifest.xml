@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Grabarte al practicar; el audio se queda en el teléfono. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <application
         android:label="inkling"
         android:name="${applicationName}"
