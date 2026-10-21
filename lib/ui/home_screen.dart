@@ -79,11 +79,36 @@ class HomeScreen extends ConsumerWidget {
               ),
             ],
           ),
-        (AsyncError(), _) || (_, AsyncError()) => const Center(
-          child: Text('No se pudieron cargar los textos.'),
+        (AsyncError(:final error, :final stackTrace), _) ||
+        (_, AsyncError(:final error, :final stackTrace)) => _LoadError(
+          error: error,
+          stackTrace: stackTrace,
         ),
         _ => const Center(child: CircularProgressIndicator()),
       },
+    );
+  }
+}
+
+/// Shows that loading failed and leaves the cause in the log, so a broken
+/// lesson file can be found without guessing.
+class _LoadError extends StatelessWidget {
+  const _LoadError({required this.error, required this.stackTrace});
+
+  final Object error;
+  final StackTrace stackTrace;
+
+  @override
+  Widget build(BuildContext context) {
+    debugPrint('inkling: no se pudieron cargar los textos: $error\n$stackTrace');
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(32),
+        child: Text(
+          'No se pudieron cargar los textos.\n\n$error',
+          textAlign: TextAlign.center,
+        ),
+      ),
     );
   }
 }
