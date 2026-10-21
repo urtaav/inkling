@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono de inkling: una gota de tinta sobre papel, con el subrayado punteado
+     de las frases. Lienzo de 108 dp; todo dentro de la zona segura de 66 dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF2B2A28"
+        android:pathData="M54,28 C54,28 39,45 39,55 A15,15 0 0,0 69,55 C69,45 54,28 54,28 Z" />
+    <path
+        android:fillColor="#FF8A8374"
+        android:pathData="M41.8,78 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 M51.8,78 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0 M61.8,78 a2.2,2.2 0 1,0 4.4,0 a2.2,2.2 0 1,0 -4.4,0" />
+</vector>
