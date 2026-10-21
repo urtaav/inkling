@@ -51,7 +51,10 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            // Sin R8: shared_preferences y path_provider llaman a Kotlin por JNI
+            // buscando clases por nombre, y R8 las renombraba o quitaba en release.
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 }
